@@ -20,12 +20,12 @@
       {{ if .Site.Params.header.enable }}
         {{ partial "header.html" . }}
       {{ end }}
-
-      <!-- Social -->
-      {{ if .Site.Params.social_icons.enable }}
-        {{ partial "social.html" . }}
-      {{ end }}
     </div><!-- /.container -->
+
+    <!-- Social -->
+    {{ if .Site.Params.social_icons.enable }}
+      {{ partial "social.html" . }}
+    {{ end }}
 
     <!-- Quote -->
     {{ if .Site.Params.quote.enable }}

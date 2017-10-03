@@ -74,14 +74,7 @@ h1 {
 	font-size: 70px;
 }
 
-.w {
-	position: absolute;
-  margin: 0 auto;
-  bottom: 0px;
-  left: 19%;
-  text-align: center;
-}
 .w i {
-	font-size: 26px;
+	font-size: 35px;
 	padding: 12px;
 }
